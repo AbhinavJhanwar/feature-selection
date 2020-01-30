@@ -74,6 +74,10 @@ ct1 = sub1.groupby('NUMCIGMO_EST').size()
 model1 = smf.ols(formula='NUMCIGMO_EST ~ C(MAJORDEPLIFE)', data=sub1)
 results1 = model1.fit()
 print(results1.summary())
+# Df of residuals and models relates to the degrees of freedom — the number of values in the final calculation of a 
+# statistic that are free to vary.
+# R-squared — the percentage of variance our model explains
+
 
 # extract only feature that we are using for correlation
 sub2 = sub1[['NUMCIGMO_EST', 'MAJORDEPLIFE']].dropna()
