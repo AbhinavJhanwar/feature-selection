@@ -77,6 +77,7 @@ print(results1.summary())
 # Df of residuals and models relates to the degrees of freedom — the number of values in the final calculation of a 
 # statistic that are free to vary.
 # R-squared — the percentage of variance our model explains
+# for multiple features use 'NUMCIGMO_EST ~ C(MAJORDEPLIFE) + features...'
 
 
 # extract only feature that we are using for correlation
