@@ -1,2 +1,2 @@
-# feature_selection
+# feature-selection
 algorithms for feature selection
